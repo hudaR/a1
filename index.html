@@ -1,0 +1,41 @@
+<!DOCTYPE  html>
+<html>
+<title>Order Pizza</title>
+<body>
+<!-- select list, buttons, date input fields -->
+
+	<h1> Pizza Order! </h1>
+	<h2> select the following </h2>
+	<h3>Size:</h3>
+	
+	<form>
+		<select>
+		  <option value="small" selected>Small - $2 </option>
+		  <option value="medium">Medium - $3 </option>
+		  <option value="large">Large - $4 </option>
+		  <option value="xlarge">Extra Large - $5</option>
+		</select> 
+	
+		<h3>Toppings:</h3>
+		<input type="checkbox" name="top" value="Tomatoes" />Tomatoes <br />
+		<input type="checkbox" name="top" value="Onions" />Onions<br />
+		<input type="checkbox" name="top" value="Olives" />Olives<br />
+		<input type="checkbox" name="top" value="pepper" />Red pepper<br />
+	
+		<h3>Crust:</h3>
+		<input type="radio" name="crust" value="thick" />Thick <br />
+		<input type="radio" name="crust" value="thin" />Thin <br />
+
+		<h3>Delivery Info:</h3>
+		<p>Would you like to have it delivered? </p>
+		Date/Time: <input type="date" name="deliverdate"> <br />
+		First Name: <input type="text" name="fname" /> <br />
+		Last Name:  <input type="text" name="lname" /> <br />
+		<textarea name="comments" rows="10" cols="30">
+		Any other information....
+		</textarea>
+
+		<input type="submit" value="Submit" />
+   </form>
+</body>
+</html>
